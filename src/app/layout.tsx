@@ -1,6 +1,6 @@
 import React from "react";
-import "./globals.css";
-import App from "./page";
+import "@/styles/globals.css";
+import LandingPage from "./page"
 const Layout = () => {
   return (
     <html lang="en">
@@ -10,7 +10,7 @@ const Layout = () => {
         <title>Notori App</title>
       </head>
       <body>
-          <App />
+          <LandingPage />
       </body>
     </html>
   );
